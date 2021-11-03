@@ -1,9 +1,13 @@
-function Main() {
-  return (
-    <main className="main">
-      <h1>Frank Ocean</h1>
-    </main>
+import React from "react";
+import Main from "./Main";
+import Header from "./Header";
+
+function App() {
+  return (<div className="app">
+    <Header />
+    <Main />
+  </div>
   );
 }
 
-export default Main;
+export default App;
